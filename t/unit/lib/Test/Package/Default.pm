@@ -1,7 +1,7 @@
 use MooseX::Declare;
 use Method::Signatures::Simple;
 
-class Test::Common::Package::Default with (Test::Common::Package,
+class Test::Package::Default with (Test::Common::Package,
 	Test::Table,
 	Test::Common,
 	Table::Main,
